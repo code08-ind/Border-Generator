@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:wght@300&family=Quicksand:wght@500;600&family=Raleway:wght@300&family=Tiro+Bangla&display=swap");
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 95vh;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1em;
+}
+
+h6 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+}
+
+input {
+  text-align: center;
+  font-family: "Tiro Bangla", serif;
+  font-size: 1.2em;
+}
+
+.app__controls {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(196, 255, 255);
+}
+
+.app__controlsContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__control {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.object {
+  background-color: white;
+  margin-top: 30px;
+  width: 500px;
+  height: 250px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
